@@ -4,8 +4,8 @@
 
 module.exports = {
   config: {
-    // Choose either "stable" for receiving highly polished,
-    // or "canary" for less polished but more frequent updates
+    // Choose either 'stable' for receiving highly polished,
+    // or 'canary' for less polished but more frequent updates
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
@@ -28,7 +28,7 @@ module.exports = {
 
     // terminal background color
     backgroundColor: '#fff',
-   
+
     // selection color
     selectionColor: 'rgb(102, 102, 102)',
 
@@ -131,12 +131,12 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hyper-tabs-enhanced",
-    "hyperminimal",
-    "hyperterm-summon",
-    "hypercwd",
-    "hyper-opacity",
-    "hyper-search"
+    'hyper-tabs-enhanced',
+    'hyperminimal',
+    'hyperterm-summon',
+    'hypercwd',
+    'hyper-opacity',
+    'hyper-search'
   ],
 
   hyperTabs: {

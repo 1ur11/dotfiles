@@ -14,7 +14,7 @@ Here are some articles I wrote about my environment:
 What's in there?
 
 - all my `brew` dependencies including: applications, fonts, etc. See [`Brewfile`](https://github.com/sobolevn/dotfiles/blob/master/Brewfile)
-- all my `macOS` configuration. See [`macos`](https://github.com/sobolevn/dotfiles/blob/master/macos)
+- all my `macOS` configuration. See [`macos`](https://github.com/sobolevn/dotfiles/blob/master/macos/)
 - all my shell configuration including [my own `sobole`](https://github.com/sobolevn/sobole-zsh-theme) theme. See [`shell/`](https://github.com/sobolevn/dotfiles/tree/master/shell) and [`config/zshrc`](https://github.com/sobolevn/dotfiles/blob/master/config/zshrc)
 - all my `vscode` configuration. See `vscode/`
 
@@ -35,7 +35,7 @@ I am using both [`hyper`](https://hyper.is/)
 and default `Terminal App` as terminal emulators.
 I am using `zsh` with [`oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh)
 as a main shell.
-And [`antibody`](https://github.com/getantibody/antibody) to manage shell plugins.
+And [`zplug`](https://github.com/zplug/zplug) to manage shell plugins.
 I also have a lot of tools to make my working experience better.
 
 I mainly work with three stacks:
@@ -49,7 +49,7 @@ You will have configured version managers, best practices, and useful tools.
 And some productivity hacks!
 
 I also have several other languages installed.
-But I am not using them on a daily basis.
+But I don't use them on a daily basis.
 
 
 ## Apps
@@ -89,6 +89,8 @@ It solved almost all issues I had with `Sublime`.
 Here's how my new `vscode` setup looks like:
 
 ![sobolevn's vscode for Python](https://raw.githubusercontent.com/sobolevn/dotfiles/master/media/vscode-python.png)
+
+It is also fully [configured](https://docs.github.com/en/free-pro-team@latest/github/developing-online-with-codespaces/personalizing-codespaces-for-your-account) to be used with [Codespaces](https://github.com/features/codespaces).
 
 Here's [a list of packages](https://github.com/sobolevn/dotfiles/blob/master/vscode/install.sh) I use:
 
